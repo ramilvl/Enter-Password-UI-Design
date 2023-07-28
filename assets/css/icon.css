@@ -1,0 +1,33 @@
+.icon {
+    width: 27px;
+    height: 27px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon-2{
+    width: 60px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon-kilid{
+    background-image: url('../icons/kilid.svg');
+}
+
+.icon-goz{
+    background-image: url('../icons/goz.svg');
+}
+
+.icon-click{
+    background-image: url('../icons/click.svg');
+}

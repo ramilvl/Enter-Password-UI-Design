@@ -1,0 +1,83 @@
+body{
+    color: var(--132-b-50, #132B50);
+}
+
+.container{
+    height: 100vh;
+    padding: 0px 341px;
+}
+
+.card-background{
+    width: 918px;
+    height: 1200px;
+    opacity: 0.03999999910593033;
+    background: var(--132-b-50, #132B50);
+}
+
+.card{
+    width: 584px;
+    height: 577px;
+    background-color: #FFF;
+    box-shadow: 0px 44px 104px 0px rgba(19, 43, 80, 0.10);
+    position: absolute;
+    top: 300px;
+    bottom: 397px;
+    left: 500px;
+    right: 875px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card .profile{
+    align-items: center;
+}
+
+.card .profile span{
+    display: block;
+}
+
+.password{
+    width: 414px;
+    height: 84px;
+}
+
+.password-search-line{
+    align-items: center;
+}
+
+.password-search{
+    width: 371px;
+    height: 59px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--132-b-50, #132B50);
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    width: 371px;
+    height: 51px;
+}
+
+.btn-left{
+    align-items: center;
+    width: 252px;
+    height: 36px;
+}
+
+.btn-right{
+    width: 103px;
+    height: 51px;
+    border-radius: 8px;
+    background: var(--132-b-50, #132B50);
+}
+
+.password-search input::placeholder{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--132-b-50, #132B50);
+    line-height: normal;
+}
